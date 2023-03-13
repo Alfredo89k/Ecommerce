@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ecommerce</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="bodyRegistro">
+    <header>
+        <nav class="navbar">
+            <ul class="navbar__nav-links-container">
+                <a href="/index.html" class="navbar__nav-link">
+                    <img class="navbar__logo" src="/assets/images/iconos/logo pet shop.png" alt="Logo del ecommerce">
+                </a>
+                <li class="navbar__nav-item">
+                    <a href="/index.html" class="navbar__nav-link">Inicio</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/contact/contact.html" class="navbar__nav-link">Contacto</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/about-us/about-us.html" class="navbar__nav-link">Nosotros</a>
+                </li>
+                <li class="navbar__nav-item">
+                    <a href="/pages/register/register.html" class="navbar__nav-link">Registrarse</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="user-navbar">
+            <div class="user-navbar__cart-icon-container">
+                <!-- TODO: add font icon and icon item -->
+            </div>
+            <!-- TODO: avatar de la persona logueada o nombre -->
+        </div>
+    </header>
+    <main class="Contac">
+        <div>
+            <h3 class="tituloFormulario">Consultas</h3>
+        </div>
+        <div class="contenedorImgContact">
+            <img src="/assets/images/contact/whatsapp.png" alt="whatsapp" class="imgContact">
+            <img src="/assets/images/contact/linkedin.png" alt="linkedin" class="imgContact">
+            <img src="/assets/images/contact/facebook.png" alt="facebook" class="imgContact">        
+        </div>
+
+
+        <div class="FormAndMap">
+                
+        <form class="FormularioConsulta">
+
+            <label for="nombreCompleto">Nombre y Apellido: </label>
+            <div class="formularioDatos">
+                <input type="text" name="nombreCompleto" id="nombreCompleto" maxlength="40" minlength="10" required
+                    placeholder="Nombre/Apellido" class="inputcuadro">
+            </div>
+
+            <label for="email">Email: </label>
+            <div class="formularioDatos">
+                <input type="email" name="email" id="email" class="inputcuadro" maxlength="35" minlength="5"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required placeholder="example@email.com">
+            </div>
+
+            <label for="mascAnimal">Tema relacionado:</label>
+            <div class="formularioDatos">
+                <select name="consulta" id="consulta" required class="inputcuadro">
+                    <option value="Alim">Alimento</option>
+                    <option value="Acc">Accesorios</option>
+                    <option value="Pel">Peluqueria</option>
+                    <option value="ot">otros</option>
+                </select>
+            </div>
+            <label for="consulta">Consulta: </label>
+            <div class="formularioDatos">
+                <input type="text" name="consulta" id="consulta" maxlength="25" minlength="5" required
+                    placeholder="Haga aqui su consulta" class="inputcuadro2">
+            </div>
+            <div>
+                <input type="submit" value="Enviar" class="botonEnviar">
+            </div>
+
+            </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10426.82431288273!2d-58.379796588929175!3d-34.60471751591559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1677368658239!5m2!1ses!2sar"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </main>
+    <footer class="footer">
+
+        <div class="footer__column1">
+            <ul class="footer__contact-container">
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <img src="/assets/images/iconos/facebook.svg" alt="Facebook" class="footer__link">
+                        Facebook
+                    </a>
+                </li>
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <img src="/assets/images/iconos/instagram.svg" alt="Instagram" class="footer__link">
+                        Instagram
+                    </a>
+                </li>
+                <li class="footer__contact-item">
+                    <a href="#" class="footer__contact-link">
+                        <img src="/assets/images/iconos/linkedin.svg" alt="LinkedIn" class="footer__link">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="footer__column2">
+            <div class="imgPetshop">
+                <img src="/assets/images/iconos/logo pet shop.png" alt="Company Logo" class="footer__logo">
+            </div>
+            <div class="footer__copyrigth">
+                <h1 class="footer__company-name">PET SHOP</h1>
+                <p class="footer__copyrigth___spot">
+                    Bienvenido a Pet Shop<br>
+                    Un lugar para tus mascotas<br>
+                    Todos los derechos reservados
+                </p>
+            </div>
+        </div>        
+
+        <div class="footer__column3">
+            <ul class="footer__contact-container">
+                <li class="footer__contact-item">
+                    <img src="/assets/images/iconos/telefono.svg" alt="telefono" class="footer__link">
+                    <a href="#" class="footer__contact-link">telefono
+                    </a>
+                </li>
+                <li class="footer__contact-item">
+                    <img src="/assets/images/iconos/gps.svg" alt="Localizacion" class="footer__link">
+                    <a href="#" class="footer__contact-link">Localizacion
+                    </a>
+                </li>
+                <li class="footer__contact-item">
+                    <img src="/assets/images/iconos/email.svg" alt="Email" class="footer__link">
+                    <a href="#" class="footer__contact-link">Email
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+
+
+</html>
